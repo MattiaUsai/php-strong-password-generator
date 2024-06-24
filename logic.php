@@ -10,7 +10,7 @@ $array_password= array_merge($upper_chars,$lower_chars,$numbers,$symbols);
 
 
     
-for($i=0; $i <= $password_length; $i++){
+for($i=1; $i <= $password_length; $i++){
     $randomIndex = rand(0, 64);
     $password = $password . $array_password[$randomIndex];
 
